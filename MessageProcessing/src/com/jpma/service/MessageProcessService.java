@@ -31,7 +31,7 @@ public class MessageProcessService extends SalesStorageService{
         
         String[] message = saleMessage.trim().split("\\s+");
 
-        if (message[0].matches("Add|Subtract|Multiply")) {//Type 3
+        if (message[0].matches("Add|Subtract|Multiply")) {//Message Type 3
             String operation = message[0];
             BigDecimal adjustmentValue = UtilsParsers.parsePrice(message[1]);
             String productType = UtilsParsers.parseProductType(message[2]);
@@ -40,20 +40,20 @@ public class MessageProcessService extends SalesStorageService{
             adjustPrice(operation, adjustmentValue, productType);
 
         } else {
-            if (message.length == 7 && message[0].matches("^\\d+")) {//Type 2                        
+            if (message.length == 7 && message[0].matches("^\\d+")) {//Message Type 2                        
                 Sale sale = new Sale();
                 sale.setQuantity(Integer.parseInt(message[0]));
                 sale.setProductType(UtilsParsers.parseProductType(message[3]));
                 sale.setProductValue(UtilsParsers.parsePrice(message[5]));
+                
                 addSalesStorage(sale);//Add the sale with the quantity informed
-
-            } else if (message.length == 3 && message[1].contains("at")) {//Type 1
+            } else if (message.length == 3 && message[1].contains("at")) {//Message Type 1
                 Sale sale = new Sale();
                 sale.setQuantity(1);
                 sale.setProductType(UtilsParsers.parseProductType(message[0]));
                 sale.setProductValue(UtilsParsers.parsePrice(message[2]));
+                
                 addSalesStorage(sale);//Add the sale with the quantity equals 1, because it is omitted in the message
-
             } else {
                 System.out.println("Notice: Incorrect message format -> " + saleMessage);
                 return false;
@@ -61,5 +61,4 @@ public class MessageProcessService extends SalesStorageService{
         }
         return true;
     }
-    
 }
