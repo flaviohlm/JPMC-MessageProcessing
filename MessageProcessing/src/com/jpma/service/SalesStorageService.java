@@ -57,18 +57,14 @@ public class SalesStorageService {
     }
 
     public void showAdjustPriceOperationsLog() {
-
         System.out.println(String.format("%-40s", "------------------------------- ADJUST PRICE OPERATIONS LOG ----------------------------------"));
-
         for (String s : operationsLog) {
             System.out.println(s);
         }
-        
         System.out.println(String.format("%-40s", "----------------------------------------------------------------------------------------------"));
     }
 
     public void showSalesLog() {
-
         System.out.println(String.format("%-40s", "\n--------------- SALES LOG -----------------"));
         System.out.println(String.format("%-20s|%-10s|%-10s|", "PRODUCT TYPE", "QUANTITY", "TOTAL"));
 
@@ -81,13 +77,12 @@ public class SalesStorageService {
                 quantity += s.getQuantity();
                 total = total.add(s.getProductValueTotal());
             }
-
-            formatReports(key, quantity, total);
+            formatLines(key, quantity, total);
         }
         System.out.println(String.format("%-40s", "-------------------------------------------\n"));
     }
 
-    public void formatReports(String key, Integer quantity, BigDecimal total) {
+    public void formatLines(String key, Integer quantity, BigDecimal total) {
         String lineItem = String.format("%-20s|%-10d|%-10.2f|", key, quantity, total);
         System.out.println(lineItem);
     }
