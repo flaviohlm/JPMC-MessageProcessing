@@ -1,0 +1,90 @@
+apple at 10
+Add 20p apple
+10 sales of apples at 10p each
+mango at 5p
+Add 5p mango
+7 sales of grapes at 3p each
+pineapple at 20p
+26 sales of pineapple at 19p each
+strawberry 30p
+banana at 5.5p
+strawberry at 30p
+14 sales of strawberries at 25p each
+20 sales of bananas at 5p each
+banana at 5p
+25 sales of pineapple at 19p each
+Divide 5p mango
+apple at 10p
+Add 5p mango
+Subtract 10p banana
+24 sales of bananas at 5p each
+Watermelon at 20p
+strawberry at 30p
+12 sales of apples at 10p each
+29 sales of pineapple at 19p each
+banana at 5p
+grape at 3p
+Watermelon at 20p
+Watermelon at 20p
+8 sales of grapes at 3p each
+orange at 15p
+orange at 15p
+12 sales of strawberries at 25p each
+14 sales of apples at 10p each
+mango at 5p
+21 sales of bananas at 5p each
+Add 20p apple
+mango at 5p
+orange at 15p
+grape at 3p
+22 sales of bananas at 5p each
+apple at 10p
+5 sales of grapes at 3p each
+Multiply 10p banana
+9 sales of grapes at 3p each
+orange at 15p
+grape at 3p
+Add 30p mango
+apple at 10p
+12 sales of mangoes at 5p each
+apple at 10p
+Add 20p apple
+11 sales of strawberries at 25p each
+apple at 10p
+Add 20p apple
+Add 20p apple
+orange at 15p
+banana at 5p
+mango at 5p
+13 sales of apples at 10p each
+14 sales of mangoes at 5p each
+strawberry 30p
+Add 20p apple
+Watermelon at 20p
+pineapple at 20p
+banana at 5p
+Watermelon at 20p
+10 sales of strawberries at 25p each
+23 sales of bananas at 5p each
+6 sales of grapes at 3p each
+10 sales of mangoes at 5p each
+pineapple at 20p
+strawberry 30p
+27 sales of pineapple at 19p each
+Multiply 5p mango
+Multiply 5p mango
+pineapple at 20p
+28 sales of pineapple at 19p each
+Add 20p apple
+grape at 3p
+banana at 5p
+13 sales of mangoes at 5p each
+pineapple at 20p
+11 sales of mangoes at 5p each
+13 sales of strawberries at 25p each
+Subtract 10p banana
+grape at 3p
+Subtract 10p banana
+apple at 10p
+11 sales of apples at 10p each
+mango at 5p
